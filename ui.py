@@ -3,6 +3,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, \
     QHBoxLayout, QLabel, QLineEdit, QPushButton, QRadioButton, QTextEdit
 
+
 class TextEncryptionApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -19,7 +20,7 @@ class TextEncryptionApp(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('Шифрование и дешифрование текста')
+        self.setWindowTitle('Шифр Трисемуса')
         self.setGeometry(100, 100, 400, 200)
 
         central_widget = QWidget(self)
